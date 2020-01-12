@@ -12,7 +12,10 @@
      # project = YourProject()
      # ...
 
-
+    import Lapris_func
+    
+    blink_pin(12)
+    
  def boot():
      download_and_install_update_if_available()
      start()
